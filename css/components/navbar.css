@@ -1,0 +1,22 @@
+.nav_list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0px 60px;
+  height: 10%;
+}
+.nav a {
+  text-decoration: none;
+  color: black;
+  opacity: 0.8;
+}
+.nav img {
+  height: 50px;
+  width: 50px;
+}
+.nav_btn a {
+  transition: border 0.1s ease-in-out;
+}
+.nav_btn a:hover {
+  border-bottom: 2px solid green;
+}

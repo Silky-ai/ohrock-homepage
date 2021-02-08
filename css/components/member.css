@@ -1,0 +1,41 @@
+.member img {
+  width: 200px;
+}
+.mem__btn a {
+  text-decoration: none;
+  color: whitesmoke;
+}
+.mem__list {
+  display: flex;
+  justify-content: space-evenly;
+  height: 10vh;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+.mem__btn {
+  color: whitesmoke;
+}
+.mem__btn:nth-child(1):hover a {
+  cursor: pointer;
+  color: red;
+}
+.mem__btn:nth-child(2):hover a {
+  cursor: pointer;
+  color: orange;
+}
+.mem__btn:nth-child(3):hover a {
+  cursor: pointer;
+  color: yellow;
+}
+.mem__btn:nth-child(4):hover a {
+  cursor: pointer;
+  color: greenyellow;
+}
+.mem__btn:nth-child(5):hover a {
+  cursor: pointer;
+  color: skyblue;
+}
+.mem__btn:nth-child(6):hover a {
+  cursor: pointer;
+  color: palevioletred;
+}
